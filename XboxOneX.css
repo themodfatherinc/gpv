@@ -13,18 +13,13 @@ portfolio, web site, display, advertisement, and editorial use.
 /*BEGIN XBOX Controller Styling*/
 
 .controller.custom{
-    background: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' %5B %3C!ENTITY ns_extend 'http://ns.adobe.com/Extensibility/1.0/'%3E%3C!ENTITY ns_ai 'http://ns.adobe.com/AdobeIllustrator/10.0/'%3E%3C!ENTITY ns_graphs 'http://ns.adobe.com/Graphs/1.0/'%3E%3C!ENTITY ns_vars 'http://ns.adobe.com/Variables/1.0/'%3E%3C!ENTITY ns_imrep 'http://ns.adobe.com/ImageReplacement/1.0/'%3E%3C!ENTITY ns_sfw 'http://ns.adobe.com/SaveForWeb/1.0/'%3E%3C!ENTITY ns_custom 'http://ns.adobe.com/GenericCustomNamespace/1.0/'%3E%3C!ENTITY ns_adobe_xpath 'http://ns.adobe.com/XPath/1.0/'%3E%0A%5D%3E%3Csvg version='1.1' id='Layer_1' xmlns:x='&ns_extend;' xmlns:i='&ns_ai;' xmlns:graph='&ns_graphs;' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 612 792' style='enable-background:new 0 0 612 792;' xml:space='preserve'%3E%3Cswitch%3E%3CforeignObject requiredExtensions='&ns_ai;' x='0' y='0' width='1' height='1'%3E%3Ci:pgfRef xlink:href='%23adobe_illustrator_pgf'%3E%3C/i:pgfRef%3E%3C/foreignObject%3E%3Cg i:extraneous='self'%3E%3Cimage style='overflow:visible;' width='840' height='624' xlink:href='data:image/png;https://i.imgur.com/B4Q9ahM.png');
+    background: url("data:image/png;https://i.imgur.com/B4Q9ahM.png");
     height: 800px;
     width: 900px;
     background-position: 0px 0px, 00px 0px;
     background-repeat: no-repeat, no-repeat; -webkit-animation: Callback 600s infinite;
     -webkit-animation-delay: 0s;
     -webkit-animation-fill-mode: forwards ;
-}
-.controller.custom{
-    background: url();
-    height: 800px;
-    width: 900px;
 }
 .custom.disconnected { 
     background: url(https://i.imgur.com/B4Q9ahM.png);
