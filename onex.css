@@ -14,7 +14,7 @@ portfolio, web site, display, advertisement, and editorial use.
 
 /* Shell & Disconnected */
 .controller.custom, .controller.custom::after {
-  background-image: url(blob/main/disonnected.png);
+  background-image: url(disonnected.png);
   background-size: 100vw auto;
   background-position: left top;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@ portfolio, web site, display, advertisement, and editorial use.
 }
 .controller.custom.disconnected::after {
   content: '';
-  background-image: url(blob/main/disonnected.png);
+  background-image: url(disonnected.png);
   position: absolute;
   opacity: 0.5;
 }
