@@ -13,7 +13,16 @@ portfolio, web site, display, advertisement, and editorial use.
 /*BEGIN XBOX Controller Styling*/
 
 .controller.custom{
-    background: url(https://i.imgur.com/B4Q9ahM.png);
+    background: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' %5B %3C!ENTITY ns_extend 'http://ns.adobe.com/Extensibility/1.0/'%3E%3C!ENTITY ns_ai 'http://ns.adobe.com/AdobeIllustrator/10.0/'%3E%3C!ENTITY ns_graphs 'http://ns.adobe.com/Graphs/1.0/'%3E%3C!ENTITY ns_vars 'http://ns.adobe.com/Variables/1.0/'%3E%3C!ENTITY ns_imrep 'http://ns.adobe.com/ImageReplacement/1.0/'%3E%3C!ENTITY ns_sfw 'http://ns.adobe.com/SaveForWeb/1.0/'%3E%3C!ENTITY ns_custom 'http://ns.adobe.com/GenericCustomNamespace/1.0/'%3E%3C!ENTITY ns_adobe_xpath 'http://ns.adobe.com/XPath/1.0/'%3E%0A%5D%3E%3Csvg version='1.1' id='Layer_1' xmlns:x='&ns_extend;' xmlns:i='&ns_ai;' xmlns:graph='&ns_graphs;' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 612 792' style='enable-background:new 0 0 612 792;' xml:space='preserve'%3E%3Cswitch%3E%3CforeignObject requiredExtensions='&ns_ai;' x='0' y='0' width='1' height='1'%3E%3Ci:pgfRef xlink:href='%23adobe_illustrator_pgf'%3E%3C/i:pgfRef%3E%3C/foreignObject%3E%3Cg i:extraneous='self'%3E%3Cimage style='overflow:visible;' width='840' height='624' xlink:href='data:image/png;https://i.imgur.com/B4Q9ahM.png');
+    height: 800px;
+    width: 900px;
+    background-position: 0px 0px, 00px 0px;
+    background-repeat: no-repeat, no-repeat; -webkit-animation: Callback 600s infinite;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-fill-mode: forwards ;
+}
+.controller.custom{
+    background: url();
     height: 800px;
     width: 900px;
 }
@@ -245,3 +254,289 @@ background-position: 0 -70px;
     background-repeat:no-repeat;
 }
 /*END XBOX Controller Styling*/
+
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}/*
+
+Terms and Conditions:
+No Refunds on digital goods, If you have questions concerning your order please contact us.
+Your use grants you the right to use and display the images for commercial use via streaming,
+recorded and rebroadcasted media. 
+This license does not include the right to redistribute copies in anyway, including but not limited to:
+advertising, stock photography, print sale profits, or resale of any nature. Your use releases The Seller 
+from any liability due to loss or damage of the images, and also releases the Seller
+from any obligation to maintain copies of any digital file, image, or photograph. You hereby grant to The 
+Seller the right to use and publish images, graphics, or media to further promote their services, including 
+portfolio, web site, display, advertisement, and editorial use. 
+*/
+/*BEGIN Xbox Series X Black Controller Styling*/
+
+.controller.xbox-sx.black {
+    background: url(base.svgz);
+    height: 800px;
+    width: 900px;
+}
+
+.xbox-sx.black.white {
+    background: url(base-white.svgz);
+}
+
+.xbox-sx.black.disconnected {
+    background: url(disconnected.svgz);
+}
+
+.xbox-sx.black.disconnected div {
+    display: none;
+}
+
+.xbox-sx.black .triggers {
+    width: 446px;
+    height: 121px;
+    position: absolute;
+    left: 152px;
+}
+
+.xbox-sx.black .trigger {
+    width: 88px;
+    height: 121px;
+    background: url(trigger.svgz);
+    opacity: 0;
+}
+
+.xbox-sx.black .trigger.left {
+    float: left;
+    background-position: 0 0;
+}
+
+.xbox-sx.black .trigger.right {
+    float: right;
+    transform: rotateY(180deg);
+}
+
+.xbox-sx.black .bumper {
+    width: 170px;
+    height: 61px;
+    background: url(bumper.svgz);
+    opacity: 0;
+}
+
+.xbox-sx.black .bumpers {
+    position: absolute;
+    width: 536px;
+    height: 61px;
+    left: 107px;
+    top: 129px;
+}
+
+.xbox-sx.black .bumper.pressed {
+    opacity: 1;
+}
+
+.xbox-sx.black .bumper.left {
+    float: left;
+}
+
+.xbox-sx.black .bumper.right {
+    float: right;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.xbox-sx.black .quadrant {
+    position: absolute;
+    background: url(quadrant.svgz);
+    height: 45px;
+    width: 45px;
+    top: 258px;
+    left: 354px;
+    z-index: 0;
+}
+
+.xbox-sx.black .p0 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.xbox-sx.black .p1 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.xbox-sx.black .p2 {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.xbox-sx.black .p3 {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.xbox-sx.black .arrows {
+    position: absolute;
+    width: 141px;
+    height: 33px;
+    top: 264px;
+    left: 306px;
+}
+
+.xbox-sx.black .back, .xbox-sx.black .start {
+    background: url(start-select.svgz);
+    width: 33px;
+    height: 33px;
+    opacity: 0;
+}
+
+.xbox-sx.black .back.pressed, .xbox-sx.black .start.pressed {
+    opacity: 1;
+}
+
+.xbox-sx.black .back {
+    float: left;
+}
+
+.xbox-sx.black .start {
+    background-position: 33px 0px;
+    float: right;
+}
+
+.xbox-sx.black .abxy {
+    position: absolute;
+    width: 153px;
+    height: 156px;
+    top: 192px;
+    left: 488px;
+}
+
+.xbox-sx.black .button {
+    position: absolute;
+    background: url(abxy.svgz);
+    width: 48px;
+    height: 48px;
+}
+
+.xbox-sx.black .button.pressed {
+    background-position-y: -48px;
+    margin-top: 5px;
+    opacity: 1;
+}
+
+.xbox-sx.black .a {
+    background-position: 0 0;
+    top: 108px;
+    left: 55px;
+}
+
+.xbox-sx.black .b {
+    background-position: -49px 0;
+    top: 58px;
+    right: 0px;
+}
+
+.xbox-sx.black .x {
+    background-position: -98px 0;
+    top: 58px;
+    left: 4px;
+}
+
+.xbox-sx.black .y {
+    background-position: 48px 0;
+    left: 55px;
+    top: 7px;
+}
+
+.xbox-sx.black .sticks {
+    position: absolute;
+    width: 371px;
+    height: 196px;
+    top: 239px;
+    left: 144px;
+}
+
+.xbox-sx.black .stick {
+    position: absolute;
+    background: url(stick.svgz);
+    background-position: -85px 0;
+    height: 83px;
+    width: 83px;
+}
+
+.xbox-sx.black .stick.pressed {
+    background-position: 0 0;
+}
+
+.xbox-sx.black .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.xbox-sx.black .stick.right {
+    top: 113px;
+    left: 288px;
+}
+
+.xbox-sx.black .dpad {
+    position: absolute;
+    width: 110px;
+    height: 111px;
+    top: 345px;
+    left: 223px;
+}
+
+.xbox-sx.black .face {
+    background: url(dpad.svgz);
+    position: absolute;
+    opacity: 0;
+}
+
+.xbox-sx.black .face.pressed {
+    opacity: 1;
+}
+
+.xbox-sx.black .face.up {
+    background-position: 34px 0;
+    left: 38px;
+    top: 0px;
+    width: 34px;
+    height: 56px;
+}
+
+.xbox-sx.black .face.down {
+    left: 38px;
+    bottom: 0;
+    width: 34px;
+    height: 56px;
+}
+
+.xbox-sx.black .face.left {
+    background-position: 0 -93px;
+    width: 55px;
+    height: 35px;
+    top: 38px;
+    left: 0;
+}
+
+.xbox-sx.black .face.right {
+    background-position: 0 -57px;
+    width: 55px;
+    height: 35px;
+    top: 38px;
+    right: 0;
+}
+
+.xbox-sx.black.half {
+    margin-top: -315px;
+}
+
+.xbox-sx.black {
+    background: no-repeat center;
+}
+
+/*END Xbox Series X Black Controller Styling*/
