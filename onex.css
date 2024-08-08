@@ -12,24 +12,25 @@ portfolio, web site, display, advertisement, and editorial use.
 */
 /*BEGIN XBOX Controller Styling*/
 
-.controller.custom{
-    background: url("data:image/png;https://i.imgur.com/B4Q9ahM.png");
-    height: 800px;
-    width: 900px;
-    background-position: 0px 0px, 00px 0px;
-    background-repeat: no-repeat, no-repeat; -webkit-animation: Callback 600s infinite;
-    -webkit-animation-delay: 0s;
-    -webkit-animation-fill-mode: forwards ;
+/* Shell & Disconnected */
+.controller.custom, .controller.custom::after {
+  background-image: url(shell.svg);
+  background-size: 100vw auto;
+  background-position: left top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
-.custom.disconnected { 
-    background: url(https://i.imgur.com/B4Q9ahM.png);
-    filter: hue-rotate(10deg) contrast(40%) saturate(80%);
-    background-repeat:no-repeat;
+.controller.custom.disconnected {
+  opacity: 0.75;
+}
+.controller.custom.disconnected::after {
+  content: '';
+  background-image: url(disconnected.svg);
+  position: absolute;
+  opacity: 0.5;
 }
 
-.custom.disconnected div {
-    display: none;
-}
  .custom .triggers{ 
     width: 127px;
     height: 93px;
