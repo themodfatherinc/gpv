@@ -14,7 +14,7 @@ portfolio, web site, display, advertisement, and editorial use.
 
 /* Shell & Disconnected */
 .controller.custom, .controller.custom::after {
-  background-image: url(shell.svg);
+  background-image: url(blob/main/disonnected.png);
   background-size: 100vw auto;
   background-position: left top;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@ portfolio, web site, display, advertisement, and editorial use.
 }
 .controller.custom.disconnected::after {
   content: '';
-  background-image: url(disconnected.svg);
+  background-image: url(blob/main/disonnected.png);
   position: absolute;
   opacity: 0.5;
 }
@@ -259,8 +259,9 @@ background-position: 0 -70px;
        url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
        url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
-}/*
+}
 
+/*
 Terms and Conditions:
 No Refunds on digital goods, If you have questions concerning your order please contact us.
 Your use grants you the right to use and display the images for commercial use via streaming,
